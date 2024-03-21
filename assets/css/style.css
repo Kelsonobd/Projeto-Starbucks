@@ -211,23 +211,50 @@ header .line {
 }
 
 .area3 {
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+    /* START AREA 3 */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-.area3--content{
+
+.area3--content {
+    /* CONTENT AREA 3 */
     padding: 200px 80px;
     background-image: url('../images/bg2.jpg');
     background-size: cover;
     background-position: left;
 
 }
-.area3--text{
+
+.area3--text {
+    /* TEXT AREA 3 */
     margin-bottom: 50px;
     line-height: 25px;
 
 }
+
 .area3--img1 {
+    /* IMAGE AREA 3 */
     background-image: url('../images/f5.jpg');
     background-size: cover;
     background-position: center;
+}
+
+/* END AREA 3 */
+
+/* START AREA 4 */
+.area4 {
+    display:grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #e8e9ee;
+}
+.area4--content{
+    padding: 150px 80px;
+}
+.area4--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.area4--img1 {
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
 }
