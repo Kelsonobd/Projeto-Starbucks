@@ -258,3 +258,19 @@ header .line {
     background-image: url('../images/bg3.jpg');
     background-position: left;
 }
+/* END AREA 4 */
+
+.area5 {
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+footer {
+    background-color: #333;
+    color:#FFF;
+    padding: 80px;
+    text-align: center;
+    
+}
