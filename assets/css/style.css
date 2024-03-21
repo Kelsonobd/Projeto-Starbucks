@@ -3,8 +3,10 @@ body {
     margin: 0;
 }
 
+/* START HEADER */
 header .line {
     background-color: #117050;
+    /* LINE GREEN  TOP*/
     height: 10px;
 }
 
@@ -35,6 +37,7 @@ header .line {
 }
 
 .header--search input {
+    /* BOX SEARCH */
     font-size: 16px;
     padding: 8px 15px;
     border: 1px solid #999;
@@ -45,6 +48,7 @@ header .line {
 }
 
 .header--search button {
+    /* ICON SEARCH */
     border: 0;
     background: transparent;
     margin-left: -30px;
@@ -52,16 +56,50 @@ header .line {
 }
 
 .header--search button img {
+    /* IMAGE ICON SEARCH */
     width: 16px;
     height: 16px;
 }
 
-.header--menu{
+.header--menu {
     margin-left: 50px;
     cursor: pointer;
 }
+
 .header--menu img {
+    /* ICON MENU IMAGE */
     width: 24px;
     height: 24px;
+}
 
+.banner {
+    /* BACKGROUND FIRST SECTION */
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.banner h1 {
+    /* PRINCIPAL TITLE */
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.banner--images {
+    margin-top: 60px;
+}
+
+.banner--images img {
+    /* IMAGES MILKSHAKE FIRST SECTION */
+    width: 148px;
+    height: 140px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
 }
